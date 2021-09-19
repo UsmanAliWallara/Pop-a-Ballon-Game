@@ -1,0 +1,47 @@
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background: wheat;
+}
+
+#ballon-game div{
+    /* background: red; */
+    height: 121px;
+    width: 119px;
+    text-align: center;
+    /* color: red; */
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: inline-block;
+    /* float: left; */
+    margin: 2.5px 5 px 2.5px 0px;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+.grey{
+    background-color: grey;
+}
+
+
+.signOutBtn{
+    position: fixed;
+      right: 3%;
+      bottom:5%;
+}
